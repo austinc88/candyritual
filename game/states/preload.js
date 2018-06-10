@@ -39,7 +39,7 @@ Preload.prototype = {
     this.load.image('particle', 'assets/particle.png');
     this.load.spritesheet('meteor', 'assets/meteor1.png',21,13,3);
 
-    this.load.script('gray', 'https://cdn.rawgit.com/photonstorm/phaser/master/filters/Gray.js');
+    this.load.script('gray', 'https://raw.githubusercontent.com/photonstorm/phaser-examples/master/examples/filters/gray.js');
 
     this.load.audio('menu_music', 'assets/Happy_Music.wav');
     this.load.audio('action_music', 'assets/action_music.wav');
